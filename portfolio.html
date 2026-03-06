@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="eastereggs.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbarmeny -->
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="portfolio.html" class="active"><i class="fas fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="cv.html"><i class="fas fa-file-alt"></i>CV</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i>About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="portfolio-main">
+        <h1 class="portfolio-title" id="klick-portfolio">My Projects:</h1>
+        <section class="projects">
+            <article class="project-card">
+                <img src="img/bild1.jpg" alt="project1">
+                <h2>School Project 1</h2>
+                <a href="#" class="portfolio-button" data-project="1">More Info</a>
+            </article>
+
+            <article class="project-card">
+                <img src="img/bild4.jpg" alt="project2">
+                <h2>School Project 2</h2>
+                <a href="#" class="portfolio-button" data-project="2">More Info</a>
+            </article>
+
+            <article class="project-card">
+                <img src="img/bild3.jpg" alt="project3">
+                <h2>School Project 3</h2>
+                <a href="#" class="portfolio-button" data-project="3">More Info</a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <ul>
+                <li>Råckstavägen 6</li>
+                <li>168 42 Bromma</li>
+                <li>0739389424</li>
+                <li><a href="mailto:nowrozireza1@gmail.com">nowrozireza1@gmail.com</a></li>
+            </ul>
+        </div>
+
+        <div class="social-media">
+            <ul>
+                <li>LinkdIn:</li>
+                <li><a href="https://www.linkedin.com/in/reza-nowrozi-84304939b/" target="_blank"><i class="fab fa-linkedin"></i>Reza Nowrozi</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Modal div for buttons -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+</body>
+</html>
