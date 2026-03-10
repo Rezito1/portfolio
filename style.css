@@ -615,3 +615,18 @@ img {
     color: white;
     border: none;
 }
+
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+  }
+
+  #header,
+  .footer,
+  .portfolio-button,
+  .modal {
+    display: none;
+  }
+}
